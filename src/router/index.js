@@ -25,16 +25,10 @@ const routes = [
                 meta: { title: '系统首页' }
             },
             {
-                path: '/user',
-                redirect: '/user/admin',
-                meta: { title: '用户管理' },
-                children:[
-                    {
-                        path: '/admin',
-                        component: User.Admin,
-                        meta: { title: '管理员列表' }
-                    }
-                ]
+                path: '/user/admin',
+                component: User.Admin,
+                meta: { title: '管理员列表' }
+
             },
             {
                 path: '/icon',

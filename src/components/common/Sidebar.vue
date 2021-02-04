@@ -49,7 +49,7 @@
                         title: '用户管理',
                         subs: [
                           {
-                            index: 'Admin',
+                            index: 'user/admin',
                             title: '管理员列表'
                           },
                         ]
